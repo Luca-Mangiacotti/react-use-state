@@ -1,1 +1,67 @@
- 
+/*----------------------
+         RESET          
+-----------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------------
+         BUTTONS          
+-----------------------*/
+
+.btn {
+  padding: 5px 10px;
+  border: 1px solid #000000;
+}
+
+.btn.btnPrimary {
+  background-color: transparent;
+  border: transparent;
+  font-size: 20px;
+}
+
+.btn.btnError {
+  background-color: red;
+  color: #ffffff;
+}
+
+.btn.btnDanger {
+  background-color: #f6c344;
+}
+
+.btn.btnInfo {
+  background-color: #e5e5e5;
+}
+/*----------------------
+         BODY         
+-----------------------*/
+
+body {
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+/*----------------------
+         ACCORDION          
+-----------------------*/
+.accordions {
+  max-width: 350px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: #ffffff;
+}
+
+.acc-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.acc-body {
+  padding: 10px;
+  margin-bottom: 30px;
+}
