@@ -5,5 +5,6 @@ export default function Btn({ children, type = "" }) {
     danger: "btn btnDanger",
     info: "btn btnInfo",
   };
+
   return <button className={types[type]}>{children}</button>;
 }
